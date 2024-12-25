@@ -1,0 +1,136 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Geologica";
+  overflow-x: hidden;
+}
+
+img{
+  transition: ease-in;
+  transition-duration: 300ms;
+}
+
+img:hover {
+  scale: 1.06;
+}
+
+nav {
+  position: fixed;
+  width: 100%;
+  z-index: 20;
+}
+
+nav,
+ul,
+a {
+  display: flex;
+  list-style-type: none;
+  gap: 60px;
+  justify-content: center;
+  text-decoration: none;
+  color: white;
+  font-size: 20px;
+  background-color: #86A788;
+  padding: 5px;
+}
+
+.identitas h1 {
+  text-align: center;
+  margin-top: 100px;
+}
+
+.identitas {
+  background-color: #FFFDEC;
+  height: 100vh;
+}
+
+.identitas img {
+  border: 1px solid white;
+  width: 180px;
+  border-radius: 50%;
+  margin-top: 70px;
+  margin-bottom: 70px;
+  margin-left: 670px;
+}
+
+.identitas table {
+  margin-left: 530px;
+  font-size: 27px;
+  color: black;
+}
+
+.penjelasan {
+  height: 160vh;
+  overflow-y: hidden;
+  background-color:#FFE2E2;
+}
+
+.penjelasan img {
+  width: 400px;
+  margin: 20px 550px;
+  border-radius: 20px;
+}
+
+.penjelasan table {
+  margin: 20px 100px;
+  border-spacing: 0 2em;
+}
+
+.penjelasan h1 {
+  text-align: center;
+  margin-top: 40px;
+}
+
+.sumber {
+  background-color: #FFFDEC;
+  overflow-y: hidden;
+  height: 100vh;
+}
+
+.sumber h1 {
+  text-align: center;
+  margin-top: 80px;
+}
+
+.sumber a {
+  padding: 10px;
+  border-radius: 10px;
+  padding: 40px;
+}
+
+.sumber a button {
+  padding: 10px;
+  border-radius: 10px;
+  background-color: black;
+  color: #FFFDEC;
+}
+
+.sumber section {
+  display: inline-flex;
+  margin-left: 260px;
+  margin-top: 200px;
+  gap: 70px;
+}
+
+.lampiran {
+  height: 100vh;
+  background-color: #FFE2E2;
+}
+
+.lampiran h1 {
+  text-align: center;
+  margin-top: 80px;
+}
+
+.lampiran section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 200px;
+  margin-left: 500px;
+}
+
+.lampiran button {
+  width: 50%;
+}
